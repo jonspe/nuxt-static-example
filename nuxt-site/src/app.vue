@@ -1,7 +1,18 @@
 <template>
-  <div>
-    <NuxtLayout>
+  <NuxtLayout>
+    <Transition name="page">
       <NuxtPage />
-    </NuxtLayout>
-  </div>
+    </Transition>
+  </NuxtLayout>
 </template>
+
+<style>
+.page-enter-active {
+  transition: opacity 0.7s;
+  opacity: 1;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+}
+</style>

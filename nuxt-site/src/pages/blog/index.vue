@@ -9,8 +9,8 @@ const { data } = await useFetch("https://jsonplaceholder.typicode.com/posts")
     <a href="https://jsonplaceholder.typicode.com/">jsonplaceholder.typicode.com</a>
   </p>
   <ol>
-    <li v-for="post in data" value="{{ post.id }}">
-      <NuxtLink href="/blog/{{post.id}}">{{ post.title }}</NuxtLink>
+    <li v-for="post in data" :value="post.id">
+      <NuxtLink :href="`/blog/${post.id}`">{{ post.title }}</NuxtLink>
     </li>
   </ol>
 </template>

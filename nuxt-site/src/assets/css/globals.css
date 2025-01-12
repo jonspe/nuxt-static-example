@@ -1,0 +1,52 @@
+nav {
+  background-color: white;
+  height: 64px;
+  box-shadow: 0 12px 12px 0px rgb(225, 225, 225);
+  margin-bottom: 96px;
+}
+nav > div {
+  margin: 0 auto 0 auto;
+  display: flex;
+  width: 960px;
+}
+#logo {
+  width: 64px;
+  height: 64px;
+}
+nav a {
+  text-decoration: none;
+  font-weight: 700;
+  align-self: center;
+  margin-left: 32px;
+}
+a:hover {
+  color: black;
+}
+
+body {
+  margin: 0;
+  background-color: #eee;
+}
+
+* {
+  font-family: Arial;
+  font-size: large;
+  color: #666;
+}
+main {
+  max-width: 960px;
+  margin: auto;
+}
+*::first-letter {
+  text-transform: capitalize;
+}
+
+a:hover {
+  color: black;
+}
+li {
+  margin-bottom: 12px;
+}
+button {
+  margin-top: 32px;
+}

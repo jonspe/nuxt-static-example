@@ -7,7 +7,7 @@ const { data: comments } = await useFetch(`https://jsonplaceholder.typicode.com/
 <template>
   <h1>{{ post.title }}</h1>
   <section>{{ post.body }}</section>
-
+  <button @click="() => $router.back()">&lt; Takaisin</button>
   <h2>Kommentit</h2>
   <ul>
     <li v-for="comment in comments">

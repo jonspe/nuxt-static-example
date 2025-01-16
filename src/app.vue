@@ -8,7 +8,7 @@
 
 <style>
 .page-enter-active {
-  transition: opacity 0.7s;
+  transition: opacity 0.4s;
   opacity: 1;
 }
 .page-enter-from,

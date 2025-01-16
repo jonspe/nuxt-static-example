@@ -1,4 +1,7 @@
 <template>
+  <head>
+    <title>Staattinen Nuxt.js Blogi</title>
+  </head>
   <nav>
     <div>
       <img id="logo" alt="" src="/favicon.ico" />

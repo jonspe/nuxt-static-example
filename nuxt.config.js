@@ -17,6 +17,10 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: "page", mode: "in" },
     baseURL: process.argv.includes("dev") ? "" : process.env.BASE_PATH,
+    head: {
+      charset: "utf-8",
+      viewport: "width=device-width, initial-scale=1",
+    },
   },
   srcDir: "src/",
   css: ["@/assets/css/globals.css"],

@@ -10,7 +10,5 @@
       <NuxtLink href="/about">Tietoja</NuxtLink>
     </div>
   </nav>
-  <main>
-    <slot></slot>
-  </main>
+  <slot></slot>
 </template>
